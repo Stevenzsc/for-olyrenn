@@ -5,11 +5,15 @@ import { AppComponent } from './app.component';
 import { IntroComponent } from './intro/intro.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.route';
+import { SceneOneComponent } from './scene-one/scene-one.component';
+import { SceneTwoComponent } from './scene-two/scene-two.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IntroComponent
+    IntroComponent,
+    SceneOneComponent,
+    SceneTwoComponent
   ],
   imports: [
     BrowserModule,
