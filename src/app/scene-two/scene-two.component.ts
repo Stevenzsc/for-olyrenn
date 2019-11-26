@@ -1,15 +1,25 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-scene-two',
   templateUrl: './scene-two.component.html',
-  styleUrls: ['./scene-two.component.css']
+  styleUrls: ['./scene-two.component.scss']
 })
 export class SceneTwoComponent implements OnInit {
+  panelOpenState = false;
+
+  centered = false;
+  disabled = false;
+  unbounded = false;
+
+  radius: number;
+  color: string;
 
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
