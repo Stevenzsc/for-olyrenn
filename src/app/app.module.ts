@@ -14,13 +14,15 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatRippleModule} from '@angular/material/core';
+import { SceneThreeComponent } from './scene-three/scene-three.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IntroComponent,
     SceneOneComponent,
-    SceneTwoComponent
+    SceneTwoComponent,
+    SceneThreeComponent
   ],
   imports: [
     BrowserModule,
