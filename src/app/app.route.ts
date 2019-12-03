@@ -14,7 +14,7 @@ export const appRoutes: Routes = [
     { path: 'scene-three', component: SceneThreeComponent },
 
     { path: '',
-      redirectTo: '/scene-one',
+      redirectTo: '/scene-three',
       pathMatch: 'full'
     }
     // { path: '**', component: PageNotFoundComponent }
