@@ -116,7 +116,7 @@ body {
     background: url('https://media.giphy.com/media/U8mf1vmVzEMmOqU4D8/giphy.gif') no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: absolute;
     font-size: 10px;
     line-height: 10px;
     margin: 0;
